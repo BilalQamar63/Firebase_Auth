@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Sign In Page</title>
+</head>
+
+<body>
+    <div class="input">
+        <h1>Sign Up Page...</h1>
+        <input type="text" id="email" placeholder="Enter E - Mail">
+        <br>
+        <br>
+        <input type="password" id="password" placeholder="Enter password">
+        <br>
+        <br>
+        <button onclick="SignUp()">Sign In</button>
+        <br>
+        <br>
+        <span>If you are already Sign In Click here <br>
+            <br>
+            <a href="./Login .html">
+                <center>Login</center>
+            </a></span>
+            <br>
+            <br>
+            <i class="fa-brands fa-google fa-2xl icons" onclick="signWithGoogle()"></i>
+            <i class="fa-brands fa-github fa-2xl icons" onclick="signWithGithub()"></i>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
